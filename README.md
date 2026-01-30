@@ -7,7 +7,7 @@ Reinstalador automático de VPS com interface interativa. Suporta Ubuntu e Debia
 **Comando único - detecta automaticamente sua arquitetura:**
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh | bash
+bash <(wget -qO- https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh)
 ```
 
 Ou com curl:
