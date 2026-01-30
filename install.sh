@@ -14,7 +14,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 # Configurações
-GITHUB_USER="SEU_USUARIO"  # ⚠️ ALTERE AQUI
+GITHUB_USER="nandoslayer"  # ⚠️ ALTERE AQUI
 GITHUB_REPO="vps-reinstaller"  # ⚠️ ALTERE AQUI
 VERSION="latest"  # ou específica como "v1.0.0"
 
