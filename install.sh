@@ -122,9 +122,15 @@ echo -e "   • Você ${RED}perderá acesso SSH${NC} temporariamente"
 echo ""
 
 # Perguntar se quer executar agora
-read -r -p "Deseja executar agora? (s/N): " REPLY
-echo ""
-if [[ $REPLY =~ ^[Ss]$ ]]; then
+if [ -t 0 ]; then
+    echo ""
+    read -r -p "Deseja executar agora? (s/N): " REPLY
+    echo ""
+else
+    REPLY="n"
+fi
+
+if [[ "$REPLY" =~ ^[Ss]$ ]]; then
     echo ""
     ./vps-reinstaller
 else
