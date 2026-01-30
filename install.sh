@@ -61,7 +61,6 @@ else
     echo -e "${RED}❌ Erro: wget ou curl não encontrado!${NC}"
     echo "Instale um dos dois:"
     echo "  • Debian/Ubuntu: apt install wget"
-    echo "  • CentOS/RHEL: yum install wget"
     exit 1
 fi
 
