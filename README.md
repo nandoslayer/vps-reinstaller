@@ -119,9 +119,6 @@ Verifique se você tem `wget` ou `curl` instalado:
 ```bash
 # Instalar wget (Debian/Ubuntu)
 apt install wget
-
-# Instalar wget (CentOS/RHEL)
-yum install wget
 ```
 
 ---
