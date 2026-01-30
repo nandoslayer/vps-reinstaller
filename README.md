@@ -7,11 +7,14 @@ Suporta múltiplos sistemas Linux e Windows.
 
 **Comando único - detecta automaticamente sua arquitetura:**
 
+```bash
 bash <(wget -qO- https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh)
+```
 
 Ou com curl:
-
+```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh)
+```
 
 ---
 
@@ -20,16 +23,18 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/
 Se preferir baixar manualmente:
 
 ### Para Intel/AMD (x86_64) - Maioria das VPS
-
+```bash
 wget https://github.com/nandoslayer/vps-reinstaller/releases/latest/download/vps-reinstaller-x86_64
 chmod +x vps-reinstaller-x86_64
 ./vps-reinstaller-x86_64
+```
 
 ### Para ARM64 (Oracle Cloud, AWS Graviton)
-
+```bash
 wget https://github.com/nandoslayer/vps-reinstaller/releases/latest/download/vps-reinstaller-aarch64
 chmod +x vps-reinstaller-aarch64
 ./vps-reinstaller-aarch64
+```
 
 ---
 
