@@ -1,4 +1,4 @@
-# 🚀 VPS Reinstaller 
+# 🚀 VPS Reinstaller
 
 Reinstalador automático de VPS com interface interativa. Suporta Ubuntu e Debian.
 
@@ -125,7 +125,8 @@ apt install wget
 
 ## 🆘 Suporte
 
-Abra uma issue: https://github.com/nandoslayer/vps-reinstaller/issues
+- 🐙 [GitHub Issues](https://github.com/nandoslayer/vps-reinstaller/issues)
+- 📢 [Canal no Telegram](https://t.me/paineis)
 
 ---
 
