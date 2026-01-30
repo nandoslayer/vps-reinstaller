@@ -122,9 +122,9 @@ echo -e "   • Você ${RED}perderá acesso SSH${NC} temporariamente"
 echo ""
 
 # Perguntar se quer executar agora
-if [ -t 0 ]; then
+if [ -t 1 ] && [ -e /dev/tty ]; then
     echo ""
-    read -r -p "Deseja executar agora? (s/N): " REPLY
+    read -r -p "Deseja executar agora? (s/N): " REPLY < /dev/tty
     echo ""
 else
     REPLY="n"
