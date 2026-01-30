@@ -44,7 +44,6 @@ chmod +x vps-reinstaller-aarch64
 - 24.04 LTS (Noble Numbat)
 - 22.04 LTS (Jammy Jellyfish)
 - 20.04 LTS (Focal Fossa)
-- 18.04 LTS (Bionic Beaver)
 
 ### 🐧 Debian
 - Debian 13 (Trixie)
