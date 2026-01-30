@@ -124,7 +124,7 @@ echo ""
 
 # Perguntar se quer executar agora
 read -r -p "Deseja executar agora? (s/N): " REPLY
-echo
+echo ""
 if [[ $REPLY =~ ^[Ss]$ ]]; then
     echo ""
     ./vps-reinstaller
