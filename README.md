@@ -12,7 +12,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/m
 
 Ou com curl:
 ```bash
-curl -sSL https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh | bash
+bash <(curl -fsSL https://raw.githubusercontent.com/nandoslayer/vps-reinstaller/main/install.sh)
 ```
 
 ---
