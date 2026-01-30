@@ -123,7 +123,7 @@ echo -e "   • Você ${RED}perderá acesso SSH${NC} temporariamente"
 echo ""
 
 # Perguntar se quer executar agora
-read -p "Deseja executar agora? (s/N): " -n 1 -r
+read -r -p "Deseja executar agora? (s/N): " REPLY
 echo
 if [[ $REPLY =~ ^[Ss]$ ]]; then
     echo ""
